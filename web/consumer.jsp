@@ -1,6 +1,6 @@
 <%-- 
-    Class   : consumer
-    Author  : Yashkaran Singh
+    Class   : consumer 
+    Author  : Yashkaran Singh and Ziya Gurel
 --%>
 <%@page import="inventory.InventoryItem"%>
 <%@page import="java.util.List"%>
@@ -59,7 +59,7 @@
     </table>
         </div>
          <footer>
-        <p>&copy; 2024 Platform Name. All rights reserved.</p>
+        <p>&copy; 2024 Food Waste Saver. All rights reserved.</p>
     </footer>
 </body>
 </html>

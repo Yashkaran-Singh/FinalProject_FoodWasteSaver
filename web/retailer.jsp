@@ -1,6 +1,6 @@
 <%-- 
     Class   : retailer
-    Author  : Yashkaran Singh
+    Author  : Yashkaran Singh and Ziya Gurel
 --%>
 <%@page import="inventory.InventoryItem"%>
 <%@page import="java.util.List"%>
@@ -59,7 +59,7 @@
          <a href="./addNewItem.jsp" <button>Add New Item</button></a>
         </div>
          <footer>
-        <p>&copy; 2024 Platform Name. All rights reserved.</p>
+        <p>&copy; 2024 Food Waste Saver. All rights reserved.</p>
     </footer>
 </body>
 </html>
