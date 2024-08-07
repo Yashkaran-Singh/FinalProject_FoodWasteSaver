@@ -1,7 +1,8 @@
 <%-- 
     Class   : login
-    Author  : Yashkaran Singh
+    Author  : Yashkaran Singh  and Ziya Gurel
 --%>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -41,7 +42,7 @@
         </div>
     </main>
     <footer>
-        <p>&copy; 2024 Platform Name. All rights reserved.</p>
+        <p>&copy; 2024 Food Waste Saver. All rights reserved.</p>
     </footer>
 </body>
 </html>

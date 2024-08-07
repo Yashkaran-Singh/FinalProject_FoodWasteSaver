@@ -1,5 +1,5 @@
 <%-- 
-    Class   : charitable_organization
+    Class   : charitable_organization and Ziya Gurel
     Author  : Yashkaran Singh
 --%>
 <%@page import="inventory.InventoryItem"%>
@@ -56,7 +56,7 @@
     </table>
         </div>
          <footer>
-        <p>&copy; 2024 Platform Name. All rights reserved.</p>
+        <p>&copy; 2024 Food Waste Saver. All rights reserved.</p>
     </footer>
 </body>
 </html>

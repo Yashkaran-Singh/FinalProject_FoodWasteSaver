@@ -1,6 +1,6 @@
 <%-- 
     Class   : editItem
-    Author  : Yashkaran Singh
+    Author  : Yashkaran Singh and Ziya Gurel
 --%>
 <%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
@@ -43,7 +43,7 @@
     </form>
         </div>
          <footer>
-        <p>&copy; 2024 Platform Name. All rights reserved.</p>
+        <p>&copy; 2024 Food Waste Saver. All rights reserved.</p>
     </footer>
 </body>
 </html>

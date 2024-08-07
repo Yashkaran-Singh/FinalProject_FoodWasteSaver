@@ -1,6 +1,6 @@
 <%-- 
     Class   : inventory_management
-    Author  : Yashkaran Singh
+    Author  : Yashkaran Singh and Ziya Gurel
 --%>
 <%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
 

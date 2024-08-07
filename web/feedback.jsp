@@ -1,6 +1,6 @@
 <%-- 
     Class   : feedback
-    Author  : Yashkaran Singh
+    Author  : Yashkaran Singh and Ziya Gurel
 --%>
 <!DOCTYPE html>
 <html lang="en">
@@ -40,7 +40,7 @@
     
     <footer>
       
-            <p>&copy; 2024 Surplus Food Management System. All rights reserved.</p>
+            <p>&copy; 2024 Surplus Food Waste Saver. All rights reserved.</p>
 
     </footer>
        

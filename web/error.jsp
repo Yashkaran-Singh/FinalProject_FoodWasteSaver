@@ -1,6 +1,6 @@
 <%-- 
     Class   : error
-    Author  : Yashkaran Singh
+    Author  : Yashkaran Singh and Ziya Gurel
 --%>
 
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
