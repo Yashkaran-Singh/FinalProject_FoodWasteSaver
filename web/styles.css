@@ -1,0 +1,170 @@
+/*
+    Author: Yashkaran Singh
+*/
+
+/* Reset default styles */
+*,
+*::before,
+*::after {
+    box-sizing: border-box; /* Apply box-sizing to all elements */
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-image: url('./images/iamge.jpg');
+    color: #444; /* Dark gray text color for contrast */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column; /* Use column to stack children vertically */
+    min-height: 100vh;
+    max-width: 100%; /* Prevent horizontal scroll */
+}
+
+/* Header styling */
+header {
+    background: #1e3a8a; /* Blue */
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+    width: 100%;
+    position: sticky; /* Make header sticky */
+    top: 0; /* Stick to the top */
+    z-index: 10; /* Ensure header is above other content */
+}
+
+header h1 {
+    margin: 0;
+}
+
+/* Navigation styling */
+nav {
+    background: #334155; /* Darker blue-gray */
+    padding: 1rem 0;
+    text-align: center;
+}
+
+nav a {
+    color: #fff; /* White text */
+    padding: 0.75rem 1.5rem;
+    text-decoration: none;
+    transition: background-color 0.3s; /* Smooth transition for hover effect */
+}
+
+nav a:hover,
+nav a:focus { /* Include focus for keyboard navigation */
+    background-color: #1e3a8a; /* Blue for hover and focus */
+    outline: none; /* Remove the outline */
+}
+
+/* Container styling */
+.container {
+    max-width: 1200px;
+    margin: 80px auto; /* Added margin-bottom to create distance from bottom */
+    padding: 20px;
+    background-color: #f8fafc; /* Light gray background for containers */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Shadow for depth */
+}
+
+/* Main section styling */
+main {
+    padding: 20px;
+}
+
+/* Footer styling */
+footer {
+    background: #1f2937; /* Dark gray */
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+    width: 100%;
+    box-sizing: border-box;
+    position: fixed; /* Keep footer at the bottom */
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000; /* Ensure footer is above other content */
+}
+
+/* Form styling */
+.form-container {
+    max-width: 400px;
+    margin: 20px auto 60px; /* Adjust margin to center form and create more distance from bottom */
+    padding: 20px;
+    background-color: #f8fafc; /* Light gray background */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block; /* Ensure label takes its own line */
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button[type="submit"] {
+    background-color: #1e3a8a; /* Blue */
+    color: #fff;
+    padding: 14px 20px;
+    margin-top: 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: opacity 0.3s; /* Smooth transition for hover effect */
+}
+
+button[type="submit"]:hover,
+button[type="submit"]:focus { /* Include focus for accessibility */
+    opacity: 0.8;
+}
+
+/* Specific page styling - assuming these are needed for specific pages with an ID */
+#index-page header {
+    background: #1e3a8a; /* Blue */
+    color: #fff;
+}
+
+#index-page footer {
+    background: #1f2937; /* Dark gray */
+    color: #fff;
+}
+
+.content-container {
+    max-width: 1200px;
+    margin: 20px auto; /* Adjust margin to center content */
+    padding: 20px;
+    background-color: #f8fafc; /* Light gray background */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.button {
+    display: inline-block;
+    background-color: #1e3a8a; /* Blue */
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.button:hover,
+.button:focus { /* Include focus for keyboard navigation */
+    background-color: #334155; /* Darker blue-gray */
+}

@@ -1,0 +1,88 @@
+/*
+    Author: Yashkaran Singh
+*/
+
+/* Global Styles */
+body, html {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(135deg, #ff7e5f, #feb47b); /* New gradient background */
+    display: flex;
+    align-items: center; /* Align vertically */
+    justify-content: center; /* Align horizontally */
+    height: 100vh;
+}
+
+/* Container for Login Form */
+.login-container {
+    background-color: #ffffff;
+    padding: 40px 60px;
+    border-radius: 10px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
+    max-width: 400px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+header h1 {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 24px; /* Add more space below the header */
+    text-align: center;
+}
+
+/* Styling Form and its Elements */
+.login-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-group {
+    margin-bottom: 20px; /* Increase spacing for better readability */
+}
+
+.form-group label {
+    display: block;
+    color: #666;
+    margin-bottom: 8px; /* Space between label and input */
+}
+
+.form-group input[type="text"],
+.form-group input[type="password"] {
+    width: 100%;
+    padding: 12px;
+    border: 2px solid #ddd; /* Subtle border */
+    border-radius: 5px; /* Rounded corners */
+    box-sizing: border-box; /* Include padding and border in element's width */
+    transition: border-color 0.3s; /* Smooth transition for border color */
+}
+
+.form-group input[type="text"]:focus,
+.form-group input[type="password"]:focus {
+    outline: none;
+    border-color: #ff6b6b; /* New highlight focus color */
+}
+
+/* Button Styling */
+.submit-btn {
+    padding: 12px;
+    background-color: #ff6b6b; /* New button color */
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s; /* Smooth transition for background */
+}
+
+.submit-btn:hover {
+    background-color: #ee5253; /* Darker shade on hover */
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+    .login-container {
+        padding: 30px 40px; /* Smaller padding on smaller screens */
+    }
+}
